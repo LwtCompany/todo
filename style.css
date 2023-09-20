@@ -1,0 +1,16 @@
+body{
+  /* border: 1px solid red; */
+  padding: 0;
+  margin: 0;
+}
+
+
+#app{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+#app div{
+  /* border: 1px solid green; */
+  /* margin-left: 5px; */
+}
