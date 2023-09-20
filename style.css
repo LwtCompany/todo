@@ -10,7 +10,21 @@ body{
   margin-top: 50px;
   justify-content: space-around;
 }
-#app div{
-  /* border: 1px solid green; */
-  /* margin-left: 5px; */
+#content{
+  margin-top:  20px;
+}
+#content div{
+  display: flex;
+  justify-content: space-around;
+}
+#content #data{
+  flex-direction: column;
+
+}
+
+#content #data div{
+ 
+  
+
+
 }

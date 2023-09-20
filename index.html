@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Todo app</title>
   <link rel="stylesheet" href="./style.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <div id="app">
@@ -14,11 +17,11 @@
     </div>
     <div>
       <label for="email">Email</label>
-      <input type="email">
+      <input type="email" id="email">
     </div>
     <div>
       <label for="age">Age</label>
-      <input type="text" >
+      <input type="text" id="age">
     </div>
     <div>
       <label for="isStudent">Are you  student?</label>
@@ -26,10 +29,26 @@
     </div>
 
     <div>
-      <button id="done">Submit</button>
+      <button id="submit">Submit</button>
     </div>
   </div>
-   
+  <div id="content">
+      
+          <div style="color: black; font-size: 22px;" >
+                <div scope="col">id</div>
+                <div scope="col">Full name</div>
+                <div scope="col">age</div>
+                <div scope="col">email</div> 
+                <div scope="col">isStudent</div> 
+                <div scope="col">Delete</div> 
+          </div>
+          <hr style="font-weight: 700;">
+
+          <div id="data">
+
+          </div>
+    
+  </div>
   <script src="./main.ts"></script>
 </body>
 </html>
